@@ -2,7 +2,7 @@ This is for the normal one
 
 <div>
       <p>Date: </p>
-      <p>User: </p>
+      <p>Affected User: </p>
       <p>Points: </p>
       <p>Reasons: </p>
       <h6><small>The person reported this will be hidded for safety purposes</small></h6>
@@ -15,7 +15,7 @@ This is for the one where the person who report it is brave and want to say thei
 
 <div>
       <p>Date: </p>
-      <p>User: </p>
+      <p>Affected User: </p>
       <p>Points: </p>
       <p>Reasons: </p>
       <p>Reported By: </p>
