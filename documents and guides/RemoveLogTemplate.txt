@@ -1,0 +1,21 @@
+This is for the normal one
+
+<div>
+      <p>User: </p>
+      <p>Points: </p>
+      <p>Reasons: </p>
+      <h6><small>The person reported this will be hidded for safety purposes</small></h6>
+      <hr>
+    </div>
+
+Put it in the end of the last one
+
+This is for the one where the person who report it is brave and want to say their name
+
+<div>
+      <p>User: </p>
+      <p>Points: </p>
+      <p>Reasons: </p>
+      <p>Reported By: </p>
+      <hr>
+    </div>
