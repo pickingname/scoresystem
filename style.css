@@ -1,0 +1,28 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: red;
+  margin-top: 60px;
+}
+
+loading {
+  text-align: center;
+}
+
+maintext {
+  padding: 100px
+}
+
+.list-group {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  --bs-border-radius-sm: 0.25rem;
+  --bs-border-radius-lg: 0.5rem;
+  --bs-border-radius-xl: 1rem;
+  --bs-border-radius-2xl: 2rem;
+  --bs-border-radius-pill: 50rem;
+}
