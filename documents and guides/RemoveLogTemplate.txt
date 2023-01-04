@@ -21,3 +21,8 @@ This is for the one where the person who report it is brave and want to say thei
       <p>Reported By: </p>
       <hr>
     </div>
+
+How to use this?
+1. Copy your template from here and put it in the most recent line
+2. Fill in the informations the template
+3. Refresh the page and see how 
