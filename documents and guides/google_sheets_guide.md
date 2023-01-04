@@ -8,3 +8,5 @@
 > 4. Now you can change the score
 ###### Friendly remember to Remove or Add point with *reasons*
 ---
+
+### Boon's score has been reset until 1 Jan 2023
