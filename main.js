@@ -1,1 +1,29 @@
-function buildTable(e){for(var t=document.getElementById("table"),n=0;n<e.length;n++){var r=`<tr>\n      <td>${e[n].Number}</td>\n      <td>${e[n].Name}</td>\n      <td>${e[n].Score}</td>\n    </tr>`;t.innerHTML+=r,document.getElementById("loading").style.display="none"}}$.ajax({method:"GET",url:"https://script.google.com/macros/s/AKfycbyOjZudRkEE45f-mW2umY6_HKOeeGQCItzTJ4MGLhoZWLDhqIv5FtArn6-iai7SinfE/exec",success:function(e){array=e.user,buildTable(array),console.log(array)}});
+console.log("initialized loading")
+
+$.ajax({
+   method: 'GET',
+   url: 'https://script.google.com/macros/s/AKfycbyOjZudRkEE45f-mW2umY6_HKOeeGQCItzTJ4MGLhoZWLDhqIv5FtArn6-iai7SinfE/exec',
+   success: function (response) {
+      array = response.user
+      buildTable(array)
+      console.log(array)
+   }
+})
+
+
+function buildTable(data) {
+   var table = document.getElementById('table')
+
+   for (var i = 0; i < data.length; i++) {
+      var row =
+         `<tr>
+      <td>${data[i].Number}</td>
+      <td>${data[i].Name}</td>
+      <td>${data[i].Score}</td>
+    </tr>`
+
+      table.innerHTML += row
+
+      document.getElementById('loading').style.display = "none"
+   }
+}
