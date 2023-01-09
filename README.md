@@ -33,3 +33,13 @@
 ---
 
 ### Also btw this is one of our first github project so bad code warning
+
+---
+
+### Thing used
+
+> 1. Vite
+> 2. Replit
+> 3. Altassian statuspage
+> 4. Google sheets, api
+> 5. Github
