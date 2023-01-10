@@ -18,7 +18,7 @@
 >
 > [About our Team](https://score.braindeadteam.repl.co/links/about.html)
 
-> Score System Group
+> *Score System Group*
 >
 > [Main score system Page](https://score.braindeadteam.repl.co)
 >
