@@ -41,5 +41,5 @@
 > 1. Vite
 > 2. Replit
 > 3. Altassian statuspage
-> 4. Google sheets, api
-> 5. Github
+> 4. Google sheets, their api
+> 5. Github 
