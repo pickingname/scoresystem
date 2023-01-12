@@ -35,7 +35,3 @@ try:
 except KeyboardInterrupt: # if user pressed control + c the program will exit and not outputting an error
     print('Pressed Control+C, The program will now exit.')
     sys.exit(0)
-
-
-
-[20:01]
