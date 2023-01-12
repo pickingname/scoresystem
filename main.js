@@ -27,4 +27,3 @@ function buildTable(data) {
       document.getElementById('loading').style.display = "none"
    }
 }
-
