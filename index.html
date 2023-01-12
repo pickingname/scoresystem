@@ -14,77 +14,86 @@
    ⣧⠀⢣⢟⡲⡔⢲⢰⣋⢾⡽⣯⣻⢷⣯⣟⣳⢯⣟⣮⢭⡛⢲⡐⢲⣒⠯⠐⠀⣿
    ⣿⣆⠈⢮⡱⢎⢧⡚⣼⢣⣟⡷⢯⣟⡾⣽⢯⣟⡾⣣⢷⡙⢦⡙⢧⠎⢁⠀⣾⣿
    ⣿⣿⣦⡀⠙⢮⠶⣹⢎⡿⣜⠻⠛⠾⠹⠳⠛⠞⠳⣏⢷⡹⢧⡛⠎⠀⢂⣼⣿⣿
-   ⣿⣿⣿⣿⣤⡈⠙⢥⠻⣜⣇⠀⠀⠀⠀⠀⠀⠀⣀⡼⣣⠛⠁⠀⣀⣴⣿⣿⣿⣿
+   ⣿⣿⣿⣿⣤⡈⠙⢥⠻⣜⣇⠀⠀⠀⠀⠀⠀⠀⣀⡼⣣⠛⠁⠀⣀⣴⣿⣿⣿⣿⣿
    ⣿⣿⣿⣿⣿⣿⣶⣤⣈⠐⠊⠛⠹⠋⠟⠹⠋⠝⡁⠒⢀⣠⣴⣷⣿⣿⣿⣿⣿⣿
    ⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣦⢥⣬⣥⣬⢴⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
    
    -->
 <html lang="en">
-   <head>
-      <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1946/1946488.png">
-      <meta http-equiv="refresh" content="600">
-      <!-- refreshes every 10 mins -->
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-      <title>1/2 Class System</title>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-   </head>
-   <body style="margin:0px">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- Navbars starts here -->
-         <div class="container-fluid">
-            <a class="navbar-brand text-light fw-bold" href="https://score.braindeadteam.repl.co/">1/2 Class System</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                     <a class="nav-link active text-light" aria-current="page" href="https://score.braindeadteam.repl.co">Home</a>
-                  </li>
-                  <!--dropdownoptions here -->
-                  <li class="nav-item">
-                     <a class="nav-link text-light" href="https://score.braindeadteam.repl.co/links/detail.html">Details</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link text-light" href="https://score.braindeadteam.repl.co/links.html">Link Explorer</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link text-light" href="https://score.braindeadteam.repl.co/links/about.html">About Us</a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </nav>
-      <!-- Navbars End here -->
-      <p> </p>
-      <maintext>
-         <h1 style="text-align: center" class="mtext fw-bold">1/2 Score System</h1>
-      </maintext>
-      <p> </p>
-      <div class="text-center" id="loading" style="col">
-         <strong>Loading User Score</strong>
+
+<head>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1946/1946488.png">
+  <meta http-equiv="refresh" content="600">
+  <!-- refreshes every 10 mins -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <title>1/2 Class System</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body style="margin:0px">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Navbars starts here -->
+    <div class="container-fluid">
+      <a class="navbar-brand text-light fw-bold" href="https://score.braindeadteam.repl.co/">1/2 Class System</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page"
+              href="https://score.braindeadteam.repl.co">Home</a>
+          </li>
+          <!--dropdownoptions here -->
+          <li class="nav-item">
+            <a class="nav-link text-light" href="https://score.braindeadteam.repl.co/links/detail.html">Details</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="https://score.braindeadteam.repl.co/links.html">Link Explorer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="https://score.braindeadteam.repl.co/links/about.html">About Us</a>
+          </li>
+        </ul>
       </div>
-      <div>
-        <table class="table">
-          <tr class="text-white bg-dark">
-              <th scope="col">Number</th>
-              <th scope="col">Name</th>
-              <th scope="col">Score</th>
-          </tr>
-          <tbody id="table">
-          </tbody>
-        </table>
-      </div>
-      <script src="main.js"></script>
-      <hr>
-      <p align="center">
-         <small>Security system by Replit<br>
-         Boon, <strong>don't</strong> try to hack our website, because its not gonna work.<br>
-         </small>
-      </p>
-      <script src="https://scoresystem.statuspage.io/embed/script.js"></script> <!-- Dont touch-->
-     <noscript><i><strong>Javascript required</strong></i></noscript> <!-- Requries js -->
-   </body>
+    </div>
+  </nav>
+  <!-- Navbars End here -->
+  <p> </p>
+  <maintext>
+    <h1 style="text-align: center" class="mtext fw-bold">1/2 Score System</h1>
+  </maintext>
+  <p> </p>
+  <div class="text-center" id="loading" style="col">
+    <strong>Loading User Score</strong>
+  </div>
+  <div>
+    <table class="table">
+      <tr class="text-white bg-dark">
+        <th scope="col">Number</th>
+        <th scope="col">Name</th>
+        <th scope="col">Score</th>
+      </tr>
+      <tbody id="table">
+      </tbody>
+    </table>
+  </div>
+  <script src="main.js"></script>
+  <hr>
+  <p align="center">
+    <small>Security system by Replit<br>
+      Boon, <strong>don't</strong> try to hack our website, because its not gonna work.<br>
+    </small>
+  </p>
+  <script src="https://scoresystem.statuspage.io/embed/script.js"></script> <!-- Dont touch-->
+  <noscript><i><strong>Javascript required</strong></i></noscript> <!-- Requries js -->
+</body>
+
 </html>
