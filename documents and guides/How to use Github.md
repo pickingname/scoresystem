@@ -42,4 +42,4 @@
 > But whats the difference?
 >
 
-<img src=">
+<img src="https://cdn.discordapp.com/attachments/886871121373315092/1063450920253390878/IMG_5099.JPG">
