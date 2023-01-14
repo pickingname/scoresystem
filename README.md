@@ -1,6 +1,7 @@
 # 1/2 Score system
 
 ![madewith](https://img.shields.io/badge/made%20with%20-love-red)
+![poweredby](https://img.shields.io/badge/POWERED%20BY%20-ELECTRICITY-yellow)
 
 >what is it?
 >
