@@ -1,5 +1,7 @@
 # 1/2 Score system
 
+[![madewith](https://img.shields.io/badge/made%20with%20-code-red)
+
 >what is it?
 >
 >[Maybe look it here](https://score.braindeadteam.repl.co/links/detail.html)
