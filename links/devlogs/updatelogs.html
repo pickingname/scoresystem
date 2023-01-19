@@ -12,6 +12,28 @@
          background-color: #312c47;
          color: #038cfc;
          }
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #413f4d;
+}
       </style>
    </head>
    <body style="margin:0px">
@@ -24,7 +46,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                     <a class="nav-link active text-light" aria-current="page" href="https://score.braindeadteam.repl.co">Home</a>
+                     <a class="nav-link text-light" aria-current="page" href="https://score.braindeadteam.repl.co">Home</a>
                   </li>
                   <!--dropdownoptions here -->
                   <li class="nav-item">
@@ -50,6 +72,29 @@
                <ul class="list-unstyled mt-3">
                   <li class="text ml-3"><i class="mdi mdi-circle-medium mr-2" style="color: #fc7b03"></i>Added the score change logs</li>
                   <li class="text ml-3"><i class="mdi mdi-circle-medium mr-2" style="color: #fc7b03"></i>Bug fixes and changes</li>
+                 <br>
+                 <button type="button" class="collapsible">Expand Github changes</button>
+<div class="content">
+  <p>1<br>2</p>
+  <br>
+</div>
+                 
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
                </ul>
                <h5 class="mt-4"> <span class="p-2 bg-light shadow rounded text-success">Release 1.5.1</span> - 5 Jan 2022</h5>
                <ul class="list-unstyled mt-3">
