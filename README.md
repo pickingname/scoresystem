@@ -1,9 +1,5 @@
 # 1/2 Score system
 
-![madewith](https://img.shields.io/badge/made%20with%20-love-red)
-![poweredby](https://img.shields.io/badge/POWERED%20BY%20-ELECTRICITY-yellow)
-![badcode](https://img.shields.io/badge/bad-code-9c32ff)
-
 >what is it?
 >
 >[Maybe look it here](https://score.braindeadteam.repl.co/links/detail.html)
