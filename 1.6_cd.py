@@ -19,8 +19,8 @@ def countdown(stop): # make a function
 
 # y:m:d
 year = "2023" # 3.4 date
-month = "1" # 3.4 date
-day = "18" # 3.4 date
+month = "2" # 3.4 date
+day = "7" # 3.4 date
 
 # h:m:s
 Hours = "0" # 3.4 date 0
